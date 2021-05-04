@@ -1,0 +1,95 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+.content {
+  position: relative;
+}
+
+.iphone-render {
+  width: 130vw;
+  // max-width: 600px;
+
+  position: relative;
+  left: -15vw;
+  overflow: hidden;
+
+  filter: drop-shadow(0px 20px 40px rgba($blue-oyster-bay, 0.5));
+}
+
+.quote {
+  margin: $mg-xxlarge 0 $mg-xxlarge $mg-xlarge;
+  position: relative;
+}
+
+.quote-symbol {
+  fill: $dark-blue;
+  position: absolute;
+
+  width: 56px;
+  left: 0px;
+  top: -24px;
+}
+
+.img-container .container {
+  figcaption {
+    text-align: right;
+    margin-top: 12px;
+  }
+}
+
+
+// RESPONSIVE TEMPLATE
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Custom breakpoint
+@media (min-width: 450px) {
+  .iphone-render {
+    width: 120vw;
+    left: -10vw;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .iphone-render {
+    width: 110%;
+    left: -10%;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .iphone-render {
+    width: 120%;
+    left: -20%;
+  }
+
+  .quote {
+    margin: $mg-xxlarge 0 $mg-xxlarge $mg-medium;
+  }
+
+  .quote-symbol {
+    width: 72px;
+    left: -$mg-large;
+    top: -$mg-medium;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .iphone-render {
+    width: 110%;
+    left: -10%;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }

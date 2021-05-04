@@ -1,0 +1,114 @@
+.background-shapes {
+  height: 100%;
+  width: 100vw;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  overflow: hidden;
+}
+
+.background-shapes .bs-triangle {
+  fill: rgba($bs-blue, 0.45);
+  height: 110vw;
+  transform: rotate(48deg);
+  margin: 0;
+
+  position: relative;
+  left: -8vw;
+  top: 2.5vw;
+}
+
+.background-shapes .bs-square {
+  background-color: rgba($bs-pink, 0.45);
+  height: 90vw;
+  width: 90vw;
+  transform: rotate(16deg);
+
+  position: relative;
+  left: 15vw;
+  margin-top: -32vw;
+  margin-right: 0;
+}
+
+.background-shapes .bs-circle {
+  background-color: rgba($bs-yellow, 0.35);
+  height: 100vw;
+  width: 100vw;
+  border-radius: 50%;
+
+  position: relative;
+  margin-top: -20vw;
+  margin-bottom: -8vw;
+  left: -20vw;
+}
+
+
+// RESPONSIVE
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   .background-shapes .bs-triangle {
+
+//   }
+
+//   .background-shapes .bs-square {
+
+//   }
+
+//   .background-shapes .bs-circle {
+
+//   }
+// }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .background-shapes .bs-triangle {
+    height: 100vw;
+  }
+
+  .background-shapes .bs-square {
+    height: 80vw;
+    width: 80vw;
+    left: 15vw;
+  }
+
+  .background-shapes .bs-circle {
+    height: 90vw;
+    width: 90vw;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .background-shapes .bs-triangle {
+    height: 80vw;
+  }
+
+  .background-shapes .bs-square {
+    height: 70vw;
+    width: 70vw;
+    left: 30vw;
+  }
+
+  .background-shapes .bs-circle {
+    height: 80vw;
+    width: 80vw;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   .background-shapes .bs-triangle {
+
+//   }
+
+//   // TOO LARGE
+//   .background-shapes .bs-square {
+
+//   }
+
+//   .background-shapes .bs-circle {
+
+//   }
+// }
