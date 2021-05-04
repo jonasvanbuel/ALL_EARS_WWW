@@ -1,3 +1,5 @@
+console.log('mailchimp_success_error_message triggered...');
+
 // VALIDATION BEFORE SUBMITTING
 const targetNode = document.getElementById('mc_embed_signup');
 const mcConfig = { attributes: true, childList: true, subtree: true };
@@ -17,7 +19,7 @@ mcOberserver.observe(targetNode, mcConfig);
 // API RESPONSE AFTER SUBMITTING
 const messages = {
   success: "Thank you for subscribing! 🎉",
-  error: "To do: Custom error message..."
+  error: "Error"
 }
 
 // Success server response
