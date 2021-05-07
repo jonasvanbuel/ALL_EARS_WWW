@@ -1,34 +1,29 @@
-.banner .logo-button {
-  height: $logo-width-small;
-  width: $logo-width-small;
+@import './config.scss';
+@import './general.scss';
+@import './containers.scss';
+@import './swiper.scss';
 
-  margin-left: 45vw;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+@import './controls.scss';
+@import './play-pause.scss';
+@import './prev-next.scss';
+@import './rwnd-fwd.scss';
 
-// RESPONSIVE
+
+// RESPONSIVE TEMPLATE
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .banner .logo-button {
-    margin-left: 50vw;
-  }
-}
+// @media (min-width: 576px) {
+// }
 
 // Medium devices (tablets, 768px and up)
 // @media (min-width: 768px) {
 // }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .banner .logo-button {
-    height: $logo-width-large;
-    width: $logo-width-large;
-  }
-}
+// @media (min-width: 992px) {
+// }
 
 // Extra large devices (large desktops, 1200px and up)
 // @media (min-width: 1200px) {
