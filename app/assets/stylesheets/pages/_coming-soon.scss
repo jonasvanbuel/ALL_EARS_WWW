@@ -1,0 +1,35 @@
+// CSS Partials
+@import "partials/fonts";
+@import "partials/container";
+@import "partials/banner";
+@import "partials/logo-button";
+@import "partials/content";
+@import "partials/subscribe-form";
+@import "partials/footer";
+@import "partials/background-shapes";
+
+// Reset
+body {
+  margin: 0;
+  position: relative;
+}
+
+// RESPONSIVE TEMPLATE
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+// }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+// }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+// }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }
