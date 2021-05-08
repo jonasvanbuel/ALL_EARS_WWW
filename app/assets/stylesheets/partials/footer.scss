@@ -6,28 +6,26 @@ footer .container {
 
 
 footer a.contact-us {
-  color: rgba($dark-blue, 1);
+  color: rgba($dark-blue, 0.8);
 
   display: flex;
   justify-content: center;
 
   margin-top: 80px;
-  margin-bottom: $mg-xxlarge;
+  margin-bottom: 1.5rem;
 
   text-decoration: none;
-  font-size: 1rem;
-  // font-weight: 200;
+  font-size: 0.9rem;
 
   cursor: pointer;
-
-  transition: 0.5s;
 }
 
 
 footer a.contact-us:hover {
   // font-weight: 700;
   // color: $lime-green;
-  font-size: 1.05rem;
+  // font-size: 1.05rem;
+  color: rgba($dark-blue, 1);
 }
 
 footer .fas {
@@ -38,3 +36,26 @@ footer .fas {
 footer .fa-arrow-circle-right {
   margin-left: 0.5rem;
 }
+
+// RESPONSIVE TEMPLATE
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-height: 700px) {
+// }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+// }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  footer a.contact-us {
+    margin-bottom: 3rem;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }
