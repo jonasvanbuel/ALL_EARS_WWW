@@ -1,6 +1,9 @@
 // This must be the first line in src/index.js
 import 'react-app-polyfill/ie9';
 
+console.log('javascript/packs/demo/index.jsx triggered...');
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 

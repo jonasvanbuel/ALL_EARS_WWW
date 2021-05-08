@@ -54,7 +54,10 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <!-- Run Rails stylesheets -->
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+
+    <!-- Run React entrypoint 'application' pack -->
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
 
