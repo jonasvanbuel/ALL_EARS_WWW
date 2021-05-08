@@ -1,6 +1,5 @@
 @import './config.scss';
 
-html,
 body {
   margin: 0;
   padding: 0;
@@ -8,10 +7,16 @@ body {
   color: $dark-blue;
 
   height: 100vh;
+  // mobile viewport bug fix: https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/
+  min-height: -webkit-fill-available;
   width: 100vw;
+
   overscroll-behavior-y: none;
-  // position: fixed;
   overflow: hidden;
+}
+
+html {
+  height: -webkit-fill-available;
 }
 
 p {
