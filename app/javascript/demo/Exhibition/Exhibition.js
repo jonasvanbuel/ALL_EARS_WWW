@@ -9,9 +9,9 @@ import './Player/styles/app.scss'
 
 
 const Exhibition = ({ exhibition }) => {
-  useEffect(() => {
-    utils.autoHideAddressBar();
-  }, []);
+  // useEffect(() => {
+  //   utils.autoHideAddressBar();
+  // }, []);
 
   const renderResponsiveFooter = () => {
     const isMobile = utils.mobileCheck();
