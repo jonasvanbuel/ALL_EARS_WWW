@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Player from './Player/Player';
 import Header from './Player/subComponents/Header';
@@ -9,9 +9,9 @@ import './Player/styles/app.scss'
 
 
 const Exhibition = ({ exhibition }) => {
-  // render exhibition from props - disable dependency data
-
-
+  useEffect(() => {
+    utils.autoHideAddressBar();
+  }, []);
 
   const renderResponsiveFooter = () => {
     const isMobile = utils.mobileCheck();

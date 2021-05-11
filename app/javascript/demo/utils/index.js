@@ -109,6 +109,9 @@ const utils = {
     if (body.classList.contains('noscroll')) {
       body.classList.remove('noscroll');
     }
+  },
+  autoHideAddressBar: () => {
+    window.scrollTo(0,1);
   }
 }
 
