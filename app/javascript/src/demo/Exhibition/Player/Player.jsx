@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import SwiperCore, { Navigation, Pagination } from 'swiper/core';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import usePlayer from './hooks/usePlayer';

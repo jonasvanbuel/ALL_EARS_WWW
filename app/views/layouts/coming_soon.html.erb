@@ -25,6 +25,9 @@
       content="All Ears creates exhibition audio guides that tell the story of art from a variety of perspectives and for everyone, whether you know loads about art, or nothing at all. 🖼🧐"
     >
 
+    <!-- Requirement for PWA functionality -->
+    <link rel="manifest" href="/manifest.json">
+
     <!-- Open Graph meta tags for social media -->
     <meta property="og:title" content="All Ears - A New Concept For Exhibition Audio Guides">
     <meta property="og:description" content="All Ears creates exhibition audio guides that tell the story of art from a variety of perspectives and for everyone, whether you know loads about art, or nothing at all. 🖼🧐">
@@ -32,22 +35,23 @@
     <meta property="og:url" content="https://www.allears.art">
 
     <!-- Favicons -->
-    <%= favicon_link_tag 'favicons/favicon.ico' %>
-    <% [57,72,60,76].each do |size| %>
-      <%= favicon_link_tag "favicons/apple-touch-icon-#{size}x#{size}.png", rel: 'apple-touch-icon', type: 'image/png', sizes: "#{size}x#{size}" %>
-      <%= favicon_link_tag "favicons/apple-touch-icon-#{size * 2}x#{size * 2}.png", rel: 'apple-touch-icon', type: 'image/png', sizes: "#{size * 2}x#{size * 2}" %>
-    <% end %>
-    <% [16,32,96,196].each do |size| %>
-      <%= favicon_link_tag "favicons/favicon-#{size}x#{size}.png", type: 'image/png', sizes: "#{size}x#{size}" %>
-    <% end %>
-    <%= favicon_link_tag "favicons/favicon-128.png", type: 'image/png', sizes: "128x128" %>
-    <% [70,150,310].each do |size| %>
-      <meta name="<%= "msapplication-square#{size}x#{size}logo"%>" content="<%= asset_path("favicons/mstile-#{size}x#{size}.png")%>" />
-    <% end %>
-    <meta name="application-name" content="All Ears"/>
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-wide310x150logo" content="<%= asset_path("favicons/mstile-310x150.png")%>" />
-    <meta name="msapplication-TileImage" content="<%= asset_path("favicons/mstile-144x144.png")%>" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#D1ECF1">
+    <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#D1ECF1">
 
     <!-- Rails security tags -->
     <%= csrf_meta_tags %>
