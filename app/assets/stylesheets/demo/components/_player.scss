@@ -1,0 +1,22 @@
+@import '../../config/index.scss';
+
+.player {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.mobile-player {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.desktop-player {
+  flex-grow: 1;
+  height: 100%;
+}
+
+
+
+
+
+

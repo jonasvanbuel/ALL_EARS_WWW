@@ -4,3 +4,14 @@ $logo-width-small: 140px;
 $logo-width-large: 150px;
 
 $title-angle: -4deg;
+
+// Sizes
+// $mobile-header-height: 16vh;
+$mobile-player-height: 76vh;
+$mobile-footer-height: 8vh;
+
+$desktop-header-height: 200px;
+$desktop-player-height: calc(100vh - 200px);
+$desktop-footer-height: 400px;
+
+$progress-circle-height: 45%;
