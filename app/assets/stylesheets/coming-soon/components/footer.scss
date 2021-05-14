@@ -12,7 +12,7 @@ footer a.contact-us {
   justify-content: center;
 
   margin-top: 80px;
-  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 
   text-decoration: none;
   font-size: 0.9rem;
@@ -52,7 +52,7 @@ footer .fa-arrow-circle-right {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   footer a.contact-us {
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
   }
 }
 

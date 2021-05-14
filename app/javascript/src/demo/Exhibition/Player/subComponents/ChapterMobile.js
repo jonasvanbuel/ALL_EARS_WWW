@@ -33,9 +33,9 @@ const ChapterMobile = ({ chapter }) => {
       style={{backgroundImage: 'url(' + imgSources.mobile + ')'}}
     >
       <div className="top">
-        <div className="mobile-horizontal-container">
+        <div className="horizontal-container">
           <div className="chapter-details">
-            <div className="mobile-horizontal-container">
+            <div className="horizontal-container">
               <h3 className="chapter-header">{`Chapter ${chapterNumber}:`}</h3>
               <h3 className="chapter-title">{title}</h3>
               <Socials />
@@ -46,7 +46,7 @@ const ChapterMobile = ({ chapter }) => {
 
       <div className="middle">
         <Audio chapterNumber={chapterNumber} audioSources={audioSources} />
-        <div className="mobile-horizontal-container">
+        <div className="horizontal-container">
           <div className="controls">
             <div className="progress-circle-container">
               <ProgressCircle

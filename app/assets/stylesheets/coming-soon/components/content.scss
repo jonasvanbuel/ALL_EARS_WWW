@@ -19,7 +19,7 @@ figure {
   left: -15vw;
   overflow: hidden;
 
-  filter: drop-shadow(0px 20px 40px rgba($blue-oyster-bay, 0.5));
+  filter: drop-shadow(0px 20px 40px rgba($light-blue-form, 0.5));
 }
 
 .quote {
@@ -34,6 +34,15 @@ figure {
   width: 56px;
   left: 0px;
   top: -24px;
+}
+
+.img-container {
+  width: 100vw;
+  margin: 100px auto;
+  margin-bottom: 0;
+  padding-bottom: 60px;
+  position: relative;
+  overflow: hidden;
 }
 
 .img-container .container {
@@ -58,6 +67,13 @@ figure {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+  .img-container {
+    width: 500px;
+    overflow: visible;
+    margin-top: 80px;
+    padding-right: 16px;
+  }
+
   .iphone-render {
     width: 110%;
     left: -10%;
@@ -84,6 +100,11 @@ figure {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  .img-container {
+    width: 600px;
+    margin-top: 100px;
+  }
+
   .iphone-render {
     width: 110%;
     left: -10%;
@@ -93,3 +114,6 @@ figure {
 // Extra large devices (large desktops, 1200px and up)
 // @media (min-width: 1200px) {
 // }
+
+
+

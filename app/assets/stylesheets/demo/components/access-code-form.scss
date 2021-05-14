@@ -1,29 +1,24 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800&display=swap);
-
 $light-blue-background: #D1ECF1;
 $dark-blue: #092c6a;
 
-#desktop-app.access-code-form {
-  background-color: red;
-}
 
-.access-code-form {
+#access-code-form {
   background-color: $light-blue-background;
-
-  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  position: relative;
 
   .horizontal-container {
     height: 100%;
-    width: 90vw;
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 500px;
 
-    display: flex;
-    align-items: center;
-
-    position: relative;
+    .form-container {
+      position: relative;
+      top: 33%;
+    }
   }
 }
+
+
 
 #form {
   width: 100%;
@@ -86,7 +81,7 @@ $dark-blue: #092c6a;
   }
 }
 
-.access-code-form .contact-us-container {
+#access-code-form .contact-us-container {
     position: absolute;
     bottom: 1.5rem;
     width: 100%;

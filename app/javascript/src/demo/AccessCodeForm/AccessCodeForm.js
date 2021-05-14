@@ -26,27 +26,26 @@ const AccessCodeForm = ({ setExhibition }) => {
   }
 
   return (
-    <div
-      id={utils.mobileCheck() ? "mobile-app" : "desktop-app"}
-      className="access-code-form"
-    >
+    <div id="access-code-form">
       <div className="horizontal-container">
-        <LogoButton />
-        <div id="form">
-          <h2>Please enter your <span>access code</span> to view your demo</h2>
-          <input
-            className="user-input"
-            type="text"
-            value={userInput}
-            onChange={e => setUserInput(e.target.value)}
-          />
-          <div className="submit-button-container">
-            <button
-              className="submit-button"
-              onClick={e => handleClick(e)}
-            >
-              Next
-            </button>
+        <div className="form-container">
+          <LogoButton />
+          <div id="form">
+            <h2>Please enter your <span>access code</span> to view your demo</h2>
+            <input
+              className="user-input"
+              type="text"
+              value={userInput}
+              onChange={e => setUserInput(e.target.value)}
+            />
+            <div className="submit-button-container">
+              <button
+                className="submit-button"
+                onClick={e => handleClick(e)}
+              >
+                Next
+              </button>
+            </div>
           </div>
         </div>
         <div className="contact-us-container">

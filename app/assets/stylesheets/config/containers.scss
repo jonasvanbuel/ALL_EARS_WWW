@@ -1,27 +1,30 @@
-// Graphical variables
-@import "config";
-
-// CSS Partials
-@import "components/container";
-@import "components/banner";
-@import "components/logo-button";
-@import "components/content";
-@import "components/subscribe-form";
-@import "components/footer";
-@import "components/background-shapes";
-
-
 // RESPONSIVE TEMPLATE
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
+
+.horizontal-container {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+
 
 // Small devices (landscape phones, 576px and up)
 // @media (min-width: 576px) {
 // }
 
+@media (min-width: 400px) {
+  .horizontal-container {
+    width: calc(100% - 3rem);
+  }
+}
+
 // Medium devices (tablets, 768px and up)
-// @media (min-width: 768px) {
-// }
+@media (min-width: 768px) {
+  .horizontal-container {
+    width: 75%;
+    max-width: 600px;
+  }
+}
 
 // Large devices (desktops, 992px and up)
 // @media (min-width: 992px) {

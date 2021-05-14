@@ -1,0 +1,90 @@
+@import 'components/swiper';
+
+@import 'components/player';
+@import 'components/chapter-desktop';
+@import 'components/chapter-mobile';
+
+@import 'components/header';
+@import 'components/logo-button';
+@import 'components/access-code-form';
+@import 'components/footer-mobile';
+@import 'components/progress-bar';
+@import 'components/progress-circle';
+@import 'components/socials';
+
+@import 'components/controls';
+@import 'components/play-pause';
+@import 'components/prev-next';
+@import 'components/rwnd-fwd';
+
+
+
+html,
+body {
+  // position: fixed;
+  overflow: hidden;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100vw;
+
+  // Contain content within nav bars browser
+  // mobile viewport bug fix: https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+
+  // Prevents iOS safari bounce
+  overscroll-behavior-y: none;
+}
+
+#demo-app {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+// .app {
+//   height: 100%;
+//   width: 100%;
+// }
+
+#mobile-app,
+#desktop-app {
+  display: flex;
+  flex-direction: column;
+}
+
+#desktop-app {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+// RESPONSIVE TEMPLATE
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-height: 700px) {
+// }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+// }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+// }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }
+

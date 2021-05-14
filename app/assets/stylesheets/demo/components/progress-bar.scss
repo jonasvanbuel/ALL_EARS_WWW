@@ -1,5 +1,3 @@
-@import '../../config/index.scss';
-
 $progress-bar-height: 0.2rem;
 $time-elapsed-height: 0.35rem;
 
@@ -32,7 +30,7 @@ $time-elapsed-height: 0.35rem;
   }
 
   .time-elapsed {
-    background-color: $bright-green;
+    background-color: $lime-green;
     height: $time-elapsed-height;
     width: 101%;
     left: -1px;

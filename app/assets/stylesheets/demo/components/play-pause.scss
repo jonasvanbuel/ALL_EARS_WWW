@@ -1,10 +1,10 @@
-@import '../../config/index.scss';
+
 
 
 #mobile-app .play,
 #mobile-app .pause {
-  color: $bright-green;
-  fill: $bright-green;
+  color: $lime-green;
+  fill: $lime-green;
   height: 35%;
 
   position: absolute;
@@ -33,8 +33,8 @@
 
 #desktop-app .play,
 #desktop-app .pause {
-  color: $bright-green;
-  fill: $bright-green;
+  color: $lime-green;
+  fill: $lime-green;
   height: 40%;
   cursor: pointer;
 }
