@@ -3,9 +3,11 @@
 $light-blue-background: #D1ECF1;
 $dark-blue: #092c6a;
 
+#desktop-app.access-code-form {
+  background-color: red;
+}
+
 .access-code-form {
-  height: 100%;
-  width: 100%;
   background-color: $light-blue-background;
 
   font-family: 'Montserrat', sans-serif;
