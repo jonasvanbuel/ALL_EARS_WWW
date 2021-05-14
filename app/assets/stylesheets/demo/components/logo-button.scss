@@ -20,11 +20,12 @@
 }
 
 #access-code-form .logo-button {
-  height: 170px;
-  width: 170px;
+  height: 120px;
+  width: 120px;
 
-  left: 24px;
-  top: 8%;
+  position: absolute;
+  left: 0px;
+  top: -120px;
 }
 
 // RESPONSIVE TEMPLATE
