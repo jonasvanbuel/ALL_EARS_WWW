@@ -1,0 +1,46 @@
+@import '../../config/index.scss';
+
+#desktop-app .prev,
+#desktop-app .next {
+  background-color: white;
+  height: 4rem;
+  width: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  cursor: pointer;
+
+  svg {
+    fill: $dark-blue;
+    height: 50%;
+  }
+}
+
+#desktop-app .prev {
+  left: 0px;
+
+  svg {
+    transform: scaleX(-1);
+    margin-right: 0.4rem;
+  }
+}
+
+#desktop-app .next {
+  right: 0px;
+
+  svg {
+    margin-left: 0.4rem;
+  }
+}
+
+#desktop-app .prev.swiper-button-disabled,
+#desktop-app .next.swiper-button-disabled {
+  opacity: 0;
+  cursor: default;
+}
