@@ -82,39 +82,37 @@ $dark-blue: #092c6a;
 }
 
 #access-code-form .contact-us-container {
-    position: absolute;
-    bottom: 1.5rem;
-    width: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
 
+  display: flex;
+  justify-content: center;
+
+
+  .contact-us {
     display: flex;
-    justify-content: center;
 
+    color: $dark-blue;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-weight: 400;
 
-    .contact-us {
+    text-decoration: none;
+    cursor: pointer;
+
+    .fas {
+      margin-left: 0.5rem;
       display: flex;
-
-      color: $dark-blue;
-      opacity: 0.8;
-      font-size: 0.9rem;
-      font-weight: 400;
-
-      text-decoration: none;
-      cursor: pointer;
-
-      .fas {
-        margin-left: 0.5rem;
-        display: flex;
-        align-items: center;
-      }
+      align-items: center;
     }
+  }
 
-    .contact-us:hover {
-      opacity: 1;
-    }
-}
-
-#desktop-app .contact-us-container {
-  bottom: 3rem;
+  .contact-us:hover {
+    opacity: 1;
+  }
 }
 
 
@@ -134,6 +132,10 @@ $dark-blue: #092c6a;
 
   .contact-us {
     font-size: 1rem;
+  }
+
+  #access-code-form .contact-us-container {
+    bottom: 3rem;
   }
 }
 

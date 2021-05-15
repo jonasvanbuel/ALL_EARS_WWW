@@ -20,12 +20,12 @@
 }
 
 #access-code-form .logo-button {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
 
   position: absolute;
-  left: 0px;
-  top: -120px;
+  left: 20px;
+  top: -140px;
 }
 
 // RESPONSIVE TEMPLATE
@@ -34,15 +34,20 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-height: 700px) {
-  // #mobile-app .logo-button {
-  //   right: 1rem;
-  //   bottom: -12%;
-  // }
+  #access-code-form .logo-button,
+  #mobile-app .logo-button {
+    height: 120px;
+    width: 120px;
+  }
 
-  // #mobile-app .logo-button {
-  //   height: 120px;
-  //   width: 120px;
-  // }
+  #access-code-form .logo-button {
+    top: -180px;
+
+  }
+  #mobile-app .logo-button {
+    right: 1rem;
+    bottom: -12%;
+  }
 }
 
 // Medium devices (tablets, 768px and up)

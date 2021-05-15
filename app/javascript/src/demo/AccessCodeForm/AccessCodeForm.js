@@ -31,7 +31,7 @@ const AccessCodeForm = ({ setExhibition }) => {
         <div className="form-container">
           <LogoButton />
           <div id="form">
-            <h2>Please enter your <span>access code</span> to view your demo</h2>
+            <h2>Please enter your <span>access code</span> to view our demo</h2>
             <input
               className="user-input"
               type="text"
