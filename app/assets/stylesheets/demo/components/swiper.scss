@@ -1,4 +1,4 @@
-@import '../../config/index.scss';
+@import '../../config/variables';
 
 .swiper-container {
   width: 100%;
@@ -28,5 +28,5 @@
 
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background-color: $bright-green;
+  background-color: $lime-green;
 }

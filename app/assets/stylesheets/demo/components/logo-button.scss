@@ -1,4 +1,4 @@
-#mobile-app .logo-button {
+.logo-button {
   height: 100px;
   width: 100px;
 
@@ -16,14 +16,16 @@
   right: 0px;
   bottom: -10%;
 
-  position: absolute;
   z-index: 5;
 }
 
-.access-code-form .logo-button {
+#access-code-form .logo-button {
+  height: 100px;
+  width: 100px;
+
   position: absolute;
-  left: 24px;
-  top: 8%;
+  left: 20px;
+  top: -140px;
 }
 
 // RESPONSIVE TEMPLATE
@@ -32,14 +34,19 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-height: 700px) {
-  #mobile-app .logo-button {
-    right: 1rem;
-    bottom: -12%;
-  }
-
+  #access-code-form .logo-button,
   #mobile-app .logo-button {
     height: 120px;
     width: 120px;
+  }
+
+  #access-code-form .logo-button {
+    top: -180px;
+
+  }
+  #mobile-app .logo-button {
+    right: 1rem;
+    bottom: -12%;
   }
 }
 

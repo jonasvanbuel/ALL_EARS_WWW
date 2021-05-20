@@ -10,11 +10,11 @@ default: &default
 
   # Additional paths webpack should lookup modules
   # ['app/assets', 'engine/foo/app/assets']
-  additional_paths: []
+  additional_paths: ['app/assets']
 
   # Reload manifest.json on all requests so we reload latest compiled packs
   # Default is false
-  cache_manifest: true
+  cache_manifest: false
 
   # Extract and emit a css file
   extract_css: false
@@ -85,11 +85,11 @@ production:
   <<: *default
 
   # Production depends on precompilation of packs prior to booting for performance.
-  compile: true
+  compile: false
 
   # Extract and emit a css file
   # Default is true
-  extract_css: false
+  extract_css: true
 
   # Cache manifest.json for performance
   cache_manifest: true

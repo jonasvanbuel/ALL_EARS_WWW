@@ -1,4 +1,3 @@
-@import '../../config/index.scss';
 
 
 .chapter-mobile {
@@ -12,7 +11,7 @@
   background-size: cover;
 }
 
-.chapter-mobile .middle .mobile-horizontal-container {
+.chapter-mobile .middle .horizontal-container {
     height: 100%;
 }
 
@@ -30,7 +29,7 @@
   color: white;
 
   // TODO delete this container and apply padding-right to other element
-  .mobile-horizontal-container {
+  .horizontal-container {
     padding-right: 20vw;
   }
 
@@ -81,7 +80,7 @@
   .current-time,
   .time-remaining,
   .time-slash {
-    color: $bright-green;
+    color: $lime-green;
     margin: 0;
   }
   .time-slash,
@@ -119,7 +118,7 @@
   }
   .chapter-mobile .chapter-header {
     font-size: $large-font-size;
-    font-weight: $large-font-weight;
+    font-weight: $thick-font-weight;
     margin-bottom: 0.6rem;
   }
 }

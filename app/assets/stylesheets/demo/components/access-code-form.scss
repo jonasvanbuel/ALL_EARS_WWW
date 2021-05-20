@@ -1,29 +1,24 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800&display=swap);
-
 $light-blue-background: #D1ECF1;
 $dark-blue: #092c6a;
 
-#desktop-app.access-code-form {
-  background-color: red;
-}
 
-.access-code-form {
+#access-code-form {
   background-color: $light-blue-background;
-
-  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  position: relative;
 
   .horizontal-container {
     height: 100%;
-    width: 90vw;
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 500px;
 
-    display: flex;
-    align-items: center;
-
-    position: relative;
+    .form-container {
+      position: relative;
+      top: 33%;
+    }
   }
 }
+
+
 
 #form {
   width: 100%;
@@ -55,7 +50,7 @@ $dark-blue: #092c6a;
 
   height: 40px;
   border-radius: 20px;
-  margin: 2rem 0;
+  margin: 2rem 0 1.5rem 0;
   padding: 3px 20px 1px 20px;
 
   outline: none;
@@ -86,40 +81,38 @@ $dark-blue: #092c6a;
   }
 }
 
-.access-code-form .contact-us-container {
-    position: absolute;
-    bottom: 1.5rem;
-    width: 100%;
+#access-code-form .contact-us-container {
+  width: 100%;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
 
+  display: flex;
+  justify-content: center;
+
+
+  .contact-us {
     display: flex;
-    justify-content: center;
 
+    color: $dark-blue;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-weight: 400;
 
-    .contact-us {
+    text-decoration: none;
+    cursor: pointer;
+
+    .fas {
+      margin-left: 0.5rem;
       display: flex;
-
-      color: $dark-blue;
-      opacity: 0.8;
-      font-size: 0.9rem;
-      font-weight: 400;
-
-      text-decoration: none;
-      cursor: pointer;
-
-      .fas {
-        margin-left: 0.5rem;
-        display: flex;
-        align-items: center;
-      }
+      align-items: center;
     }
+  }
 
-    .contact-us:hover {
-      opacity: 1;
-    }
-}
-
-#desktop-app .contact-us-container {
-  bottom: 3rem;
+  .contact-us:hover {
+    opacity: 1;
+  }
 }
 
 
@@ -139,6 +132,10 @@ $dark-blue: #092c6a;
 
   .contact-us {
     font-size: 1rem;
+  }
+
+  #access-code-form .contact-us-container {
+    bottom: 3rem;
   }
 }
 

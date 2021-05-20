@@ -40,7 +40,7 @@ const ChapterDesktop = ({ chapter }) => {
         <div className="background-image-overlay"></div>
       </div>
 
-      <div className="desktop-horizontal-container">
+      <div className="horizontal-container">
         <Audio
           chapterNumber={chapterNumber}
           audioSources={audioSources}
