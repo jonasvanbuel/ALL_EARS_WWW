@@ -1,4 +1,4 @@
-console.log('mailchimp_success_error_message triggered...');
+// console.log('mailchimp_success_error_message triggered...');
 
 // VALIDATION BEFORE SUBMITTING
 const targetNode = document.getElementById('mc_embed_signup');
