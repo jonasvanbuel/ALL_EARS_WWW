@@ -1,7 +1,7 @@
 #banner {
   width: 100%;
+  // JS updates height with window.innerHeight onPageLoad
   height: 100vh;
-  // height: calc(100vh - 60px);
 
   position: relative;
 }
@@ -9,7 +9,7 @@
 #banner .banner-grid {
   height: 100%;
   display: grid;
-  grid-template-rows: 33% 33% 34%;
+  grid-template-rows: 35% 45% 20%;
 }
 
 #banner .logo-button-container {
@@ -40,7 +40,7 @@
 
 #banner .contact-us-container {
   width: 100%;
-  // margin-bottom: 2rem;
+  margin-bottom: 2rem;
 
   display: flex;
   justify-content: center;
@@ -70,7 +70,6 @@
 }
 
 #banner .banner-gradient {
-  // background-color: orange;
   background: linear-gradient(rgba(#FFF, 0), rgba(#FFF, 0.75));
 
   width: 100%;
@@ -95,7 +94,7 @@
   }
 
   #banner .contact-us-container {
-    // margin-bottom: 3rem;
+    margin-bottom: 3rem;
   }
 }
 

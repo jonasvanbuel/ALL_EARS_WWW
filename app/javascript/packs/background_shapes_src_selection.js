@@ -23,7 +23,6 @@ window.addEventListener('resize', setImageSrc);
 
 
 // To be externalised
-
 const scaleBanner = () => {
   console.log("scaleBanner triggered...");
 
@@ -33,4 +32,3 @@ const scaleBanner = () => {
 }
 
 window.addEventListener('load', scaleBanner);
-window.addEventListener('resize', scaleBanner);
