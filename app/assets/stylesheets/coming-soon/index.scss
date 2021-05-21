@@ -6,6 +6,7 @@
 @import "components/subscribe-form";
 
 html {
+  height: -webkit-fill-available;
   scroll-behavior: smooth;
 }
 
