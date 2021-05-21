@@ -83,8 +83,9 @@ $dark-blue: #092c6a;
 
 #access-code-form .contact-us-container {
   width: 100%;
+  bottom: 2rem;
+
   position: absolute;
-  bottom: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
 

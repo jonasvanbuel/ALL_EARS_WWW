@@ -1,12 +1,13 @@
-<div class="background-shapes">
-  <% 10.times do %>
-    <svg version="1.1" class="bs-triangle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 600 600" xml:space="preserve">
-      <g>
-        <polygon points="600,300.25 0,0.25 0,600.25   "/>
-      </g>
-    </svg>
-    <div class="bs-square"></div>
-    <div class="bs-circle"></div>
-  <% end %>
+<div class="background-shapes-container noselect">
+  <div
+    id="background-shapes-image"
+    data-mobile-src="<%= asset_path 'mobile-background-shapes.svg' %>"
+    data-desktop-src="<%= asset_path 'desktop-background-shapes.svg' %>"
+  ></div>
 </div>
+
+
+<!-- Decide which src to load in user browser -->
+<% content_for :after_js do %>
+  <%= javascript_pack_tag "background_shapes_src_selection" %>
+<% end %>

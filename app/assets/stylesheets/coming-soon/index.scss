@@ -5,6 +5,10 @@
 @import "components/logo-button";
 @import "components/subscribe-form";
 
+main {
+  background-color: rgba(white, 0.7);
+  padding-top: 4rem;
+}
 
 // RESPONSIVE TEMPLATE
 // Extra small devices (portrait phones, less than 576px)
