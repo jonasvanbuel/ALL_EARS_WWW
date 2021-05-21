@@ -19,3 +19,8 @@
 
   <div class="banner-gradient"></div>
 </div>
+
+<!-- Scale banner after load to window.innerHeight -->
+<% content_for :after_js do %>
+  <%= javascript_pack_tag "utils/scale_banner" %>
+<% end %>
