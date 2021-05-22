@@ -37,6 +37,7 @@ const AccessCodeForm = ({ setExhibition }) => {
               type="text"
               value={userInput}
               onChange={e => setUserInput(e.target.value)}
+              autoFocus
             />
             <div className="submit-button-container">
               <button
