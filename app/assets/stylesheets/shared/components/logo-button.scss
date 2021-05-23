@@ -1,4 +1,13 @@
-#banner .logo-button {
+#banner .logo-button-container,
+#access-code-form .logo-button-container {
+  width: 100%;
+  position: relative;
+  z-index: inherit;
+}
+
+
+#banner .logo-button,
+#access-code-form .logo-button {
   height: $logo-width-small;
   width: $logo-width-small;
 
@@ -18,7 +27,8 @@
 
 // Larger phones
 @media (min-height: 700px) {
-  #banner .logo-button {
+  #banner .logo-button,
+  #access-code-form .logo-button {
     height: $logo-width-large;
     width: $logo-width-large;
     top: 4rem;
@@ -27,7 +37,8 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  #banner .logo-button {
+  #banner .logo-button,
+  #access-code-form .logo-button {
     height: $logo-width-large;
     width: $logo-width-large;
     left: 20%;
@@ -45,7 +56,8 @@
 
 // High-end iPads
 @media (min-height: 1000px) {
-  #banner .logo-button {
+  #banner .logo-button,
+  #access-code-form .logo-button {
     top: 6rem;
   }
 }

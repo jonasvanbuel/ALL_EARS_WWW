@@ -6,16 +6,8 @@
   position: relative;
 }
 
-#banner .banner-grid {
-  height: 100%;
-  display: grid;
-  grid-template-rows: 35% 45% 20%;
-}
+// TODO: .banner-grid declared in application.scss - to be reorganised
 
-#banner .logo-button-container {
-  width: 100%;
-  position: relative;
-}
 
 #banner .coming-soon-container {
   display: flex;
@@ -26,50 +18,26 @@
     width: 100%;
     max-width: 440px;
   }
-
 }
 
-#banner .contact-us-container {
-  width: 100%;
-  margin-bottom: 2rem;
 
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+#banner-grid {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 35% 45% 20%;
+  z-index: 10;
 }
 
-#banner .contact-us {
-  display: flex;
-
-  color: $dark-blue;
-  opacity: 0.8;
-  font-size: 0.9rem;
-  font-weight: 400;
-
-  text-decoration: none;
-  cursor: pointer;
-
-  .fas {
-    margin-left: 0.5rem;
-    display: flex;
-    align-items: center;
-  }
-}
-
-#banner .contact-us:hover {
-  opacity: 1;
-}
-
-#banner .banner-gradient {
+#banner .banner-gradient,
+#access-code-form .banner-gradient {
   background: linear-gradient(rgba(#FFF, 0), rgba(#FFF, 0.70));
 
   width: 100%;
   height: 60%;
   position: absolute;
   bottom: 0;
-
-  z-index: -9;
 }
+
 
 // RESPONSIVE
 // Extra small devices (portrait phones, less than 576px)
@@ -80,11 +48,8 @@
 // }
 
 // Larger phones
-@media (min-height: 700px) {
-  #banner .contact-us-container {
-    margin-bottom: 3rem;
-  }
-}
+// @media (min-height: 700px) {
+// }
 
 
 // Medium devices (tablets, 768px and up)
@@ -100,9 +65,6 @@
 // }
 
 // High-end iPads
-@media (min-height: 1000px) {
-  #banner .logo-button {
-    top: 6rem;
-  }
-}
+// @media (min-height: 1000px) {
+// }
 
