@@ -21,9 +21,9 @@
 // layout styling rules below
 #banner .logo-button {
     position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    transform: translateX(-95%);
+    top: 3rem;
+    left: 10%;
+    transform: translateX(-5%);
 }
 
 #banner .coming-soon-container {
@@ -88,9 +88,10 @@
 // @media (min-width: 576px) {
 // }
 
+// Larger phones
 @media (min-height: 700px) {
   #banner .logo-button {
-    bottom: 3rem;
+    top: 4rem;
   }
 
   #banner .contact-us-container {
@@ -100,8 +101,12 @@
 
 
 // Medium devices (tablets, 768px and up)
-// @media (min-width: 768px) {
-// }
+@media (min-width: 768px) {
+  #banner .logo-button {
+    left: 20%;
+    top: 5rem;
+  }
+}
 
 // Large devices (desktops, 992px and up)
 // @media (min-width: 992px) {
@@ -110,3 +115,11 @@
 // Extra large devices (large desktops, 1200px and up)
 // @media (min-width: 1200px) {
 // }
+
+// High-end iPads
+@media (min-height: 1000px) {
+  #banner .logo-button {
+    top: 6rem;
+  }
+}
+
