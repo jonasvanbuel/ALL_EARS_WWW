@@ -1,8 +1,12 @@
 #banner .logo-button {
   height: $logo-width-small;
   width: $logo-width-small;
-}
 
+  position: absolute;
+  top: 3rem;
+  left: 10%;
+  transform: translateX(-5%);
+}
 
 // RESPONSIVE
 // Extra small devices (portrait phones, less than 576px)
@@ -12,10 +16,12 @@
 // @media (min-width: 576px) {
 // }
 
+// Larger phones
 @media (min-height: 700px) {
   #banner .logo-button {
     height: $logo-width-large;
     width: $logo-width-large;
+    top: 4rem;
   }
 }
 
@@ -24,6 +30,8 @@
   #banner .logo-button {
     height: $logo-width-large;
     width: $logo-width-large;
+    left: 20%;
+    top: 5rem;
   }
 }
 
@@ -34,3 +42,10 @@
 // Extra large devices (large desktops, 1200px and up)
 // @media (min-width: 1200px) {
 // }
+
+// High-end iPads
+@media (min-height: 1000px) {
+  #banner .logo-button {
+    top: 6rem;
+  }
+}
