@@ -17,9 +17,32 @@
   transform: translateX(-5%);
 }
 
+
+#desktop-app .desktop-header .logo-button,
+#mobile-app .mobile-header .logo-button {
+  height: 90px;
+  width: 90px;
+
+  position: absolute;
+  bottom: -10%;
+  right: 0.7rem;
+  z-index: 10;
+}
+
+
+
 // RESPONSIVE
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
+
+// Following .horizontal-container rules
+@media (min-width: 400px) {
+  #desktop-app .desktop-header .logo-button,
+  #mobile-app .mobile-header .logo-button {
+    right: 1rem;
+  }
+}
+
 
 // Small devices (landscape phones, 576px and up)
 // @media (min-width: 576px) {
@@ -33,16 +56,25 @@
     width: $logo-width-large;
     top: 4rem;
   }
+
+  #desktop-app .desktop-header .logo-button,
+  #mobile-app .mobile-header .logo-button {
+    height: 120px;
+    width: 120px;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   #banner .logo-button,
   #access-code-form .logo-button {
-    height: $logo-width-large;
-    width: $logo-width-large;
     left: 20%;
     top: 5rem;
+  }
+
+  #desktop-app .desktop-header .logo-button,
+  #mobile-app .mobile-header .logo-button {
+    right: 3rem;
   }
 }
 
