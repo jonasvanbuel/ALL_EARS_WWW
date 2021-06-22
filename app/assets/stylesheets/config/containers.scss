@@ -4,6 +4,7 @@
 
 .horizontal-container {
   width: calc(100% - 2rem);
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -22,7 +23,6 @@
 @media (min-width: 768px) {
   .horizontal-container {
     width: 75%;
-    max-width: 600px;
   }
 }
 

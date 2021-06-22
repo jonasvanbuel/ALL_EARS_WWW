@@ -1,27 +1,22 @@
-$light-blue-background: #D1ECF1;
+// $light-blue-background: #D1ECF1;
 $dark-blue: #092c6a;
 
 
 #access-code-form {
-  background-color: $light-blue-background;
+  background-color: $light-blue-form;
   height: 100%;
   position: relative;
-
-  .horizontal-container {
-    height: 100%;
-    max-width: 500px;
-
-    .form-container {
-      position: relative;
-      top: 33%;
-    }
-  }
 }
 
-
+#access-code-form .form-container {
+ display: flex;
+ justify-content: center;
+ z-index: inherit;
+}
 
 #form {
   width: 100%;
+  max-width: 440px;
   display: flex;
   flex-direction: column;
   color: $dark-blue;
@@ -81,40 +76,6 @@ $dark-blue: #092c6a;
   }
 }
 
-#access-code-form .contact-us-container {
-  width: 100%;
-  position: absolute;
-  bottom: 1.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-
-  display: flex;
-  justify-content: center;
-
-
-  .contact-us {
-    display: flex;
-
-    color: $dark-blue;
-    opacity: 0.8;
-    font-size: 0.9rem;
-    font-weight: 400;
-
-    text-decoration: none;
-    cursor: pointer;
-
-    .fas {
-      margin-left: 0.5rem;
-      display: flex;
-      align-items: center;
-    }
-  }
-
-  .contact-us:hover {
-    opacity: 1;
-  }
-}
-
 
 // RESPONSIVE TEMPLATE
 // Extra small devices (portrait phones, less than 576px)
@@ -128,14 +89,6 @@ $dark-blue: #092c6a;
 
   #form h2 span {
     font-size: 1.5rem;
-  }
-
-  .contact-us {
-    font-size: 1rem;
-  }
-
-  #access-code-form .contact-us-container {
-    bottom: 3rem;
   }
 }
 

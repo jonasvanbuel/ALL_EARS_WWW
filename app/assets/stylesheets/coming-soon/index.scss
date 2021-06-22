@@ -1,10 +1,18 @@
 @import "components/background-shapes";
-@import "components/banner";
 @import "components/content";
 @import "components/footer";
-@import "components/logo-button";
 @import "components/subscribe-form";
 
+html {
+  // Not supported on iOS Safari
+  scroll-behavior: smooth;
+}
+
+main {
+  // background-color: rgba(white, 0.75);
+  background: linear-gradient(rgba(#FFF, 0.7), rgba(#FFF, 0.8));
+  padding-top: 3rem;
+}
 
 // RESPONSIVE TEMPLATE
 // Extra small devices (portrait phones, less than 576px)

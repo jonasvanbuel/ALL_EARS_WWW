@@ -8,8 +8,8 @@ const Header = ({ exhibition }) => {
 
   return (
     <header className={`${utils.mobileCheck() ? "mobile-header" : "desktop-header"}`}>
-      <div className="horizontal-container">
 
+      <div className="horizontal-container">
         <div className="exhibition-details-container">
           <div className="exhibition-details">
             <h1 className="title noselect">{details.mainTitle}</h1>
@@ -27,8 +27,9 @@ const Header = ({ exhibition }) => {
           </div>
         </div>
 
-        <LogoButton />
       </div>
+
+    <LogoButton />
     </header>
   )
 }

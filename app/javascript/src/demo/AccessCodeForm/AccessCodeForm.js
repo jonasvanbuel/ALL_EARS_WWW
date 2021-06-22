@@ -27,9 +27,13 @@ const AccessCodeForm = ({ setExhibition }) => {
 
   return (
     <div id="access-code-form">
-      <div className="horizontal-container">
-        <div className="form-container">
+      <div id="banner-grid" className="horizontal-container">
+
+        <div className="logo-button-container">
           <LogoButton />
+        </div>
+
+        <div className="form-container">
           <div id="form">
             <h2>Please enter your <span>access code</span> to view our demo</h2>
             <input
@@ -37,6 +41,7 @@ const AccessCodeForm = ({ setExhibition }) => {
               type="text"
               value={userInput}
               onChange={e => setUserInput(e.target.value)}
+              autoFocus
             />
             <div className="submit-button-container">
               <button
@@ -48,6 +53,7 @@ const AccessCodeForm = ({ setExhibition }) => {
             </div>
           </div>
         </div>
+
         <div className="contact-us-container">
           <a href="mailto:team@allears.art" className="contact-us">
             <p>Contact us to request access</p>
@@ -55,6 +61,7 @@ const AccessCodeForm = ({ setExhibition }) => {
           </a>
         </div>
       </div>
+      <div className="banner-gradient"></div>
     </div>
   )
 }

@@ -1,0 +1,136 @@
+#banner .contact-us-container {
+  width: 100%;
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: inherit;
+}
+
+#banner .contact-us {
+  display: flex;
+
+  color: $dark-blue;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  font-weight: 400;
+
+  text-decoration: none;
+  cursor: pointer;
+
+  .fas {
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+#banner .contact-us:hover {
+  opacity: 1;
+}
+
+
+
+
+// RESPONSIVE
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+// }
+
+// Larger phones
+@media (min-height: 700px) {
+  #banner .contact-us-container {
+    margin-bottom: 3rem;
+  }
+}
+
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+// }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+// }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }
+
+// High-end iPads
+// @media (min-height: 1000px) {
+// }
+
+
+
+
+
+
+
+
+#access-code-form .contact-us-container {
+  width: 100%;
+  bottom: 2rem;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  justify-content: center;
+  z-index: inherit;
+
+
+  .contact-us {
+    display: flex;
+
+    color: $dark-blue;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    .fas {
+      margin-left: 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .contact-us:hover {
+    opacity: 1;
+  }
+}
+
+// RESPONSIVE TEMPLATE
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-height: 700px) {
+  .contact-us {
+    font-size: 1rem;
+  }
+
+  #access-code-form .contact-us-container {
+    bottom: 3rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+// }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+// }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }
