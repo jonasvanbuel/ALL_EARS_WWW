@@ -16,19 +16,15 @@ export const bruceNaumannYu82d = {
       id: 1,
       chapterNumber: 1,
       roomNumber: 2,
-      title: 'Early Work',
+      title: 'One Hundred Live and Die, 1984',
       imgSources: {
-        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782536/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-01-mobile_jmrkcm.jpg',
-        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782537/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-01-desktop_dlawwk.jpg'
+        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627125901/2021-all-ears-nauman/imgs/Nauman-one-hundred-live-and-die-mobile_ectegw.jpg',
+        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627125903/2021-all-ears-nauman/imgs/Nauman-one-hundred-live-and-die-desktop_hrput8.jpg'
       },
       audioSources: [
         {
-          type: 'webm',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623913/2021-all-ears-test-player/audio/Miles_uitqur.webm'
-        },
-        {
           type: 'mpeg',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623816/2021-all-ears-test-player/audio/Miles_bgr9sx.mp3'
+          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1627125837/2021-all-ears-nauman/audio/Nauman-one-hundred-live-and-die_fs75zs.mp3'
         }
       ]
     },
@@ -36,19 +32,15 @@ export const bruceNaumannYu82d = {
       id: 2,
       chapterNumber: 2,
       roomNumber: 5,
-      title: 'Double Steel Cage Piece, 1974',
+      title: 'Black Marble Under Yellow Light, 1981-88',
       imgSources: {
-        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782537/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-02-mobile_ntqkcm.jpg',
-        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782537/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-02-desktop_ke9isc.jpg'
+        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627125901/2021-all-ears-nauman/imgs/Nauman-black-marble-under-yellow-light-mobile_hjooer.jpg',
+        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627125901/2021-all-ears-nauman/imgs/Nauman-black-marble-under-yellow-light-desktop_gezlyp.jpg'
       },
       audioSources: [
         {
-          type: 'webm',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623913/2021-all-ears-test-player/audio/Miles_uitqur.webm'
-        },
-        {
           type: 'mpeg',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623816/2021-all-ears-test-player/audio/Miles_bgr9sx.mp3'
+          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1627125838/2021-all-ears-nauman/audio/Nauman-black-marble-under-yellow-light_lbq31h.mp3'
         }
       ]
     },
@@ -56,79 +48,47 @@ export const bruceNaumannYu82d = {
       id: 3,
       chapterNumber: 3,
       roomNumber: 6,
-      title: 'Musical Chairs, 1983',
+      title: 'Double Steel Cage Piece, 1974',
       imgSources: {
-        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782537/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-03-mobile_l43g3j.jpg',
-        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782536/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-03-desktop_jdfjiw.jpg'
+        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627126513/2021-all-ears-nauman/imgs/Nauman-double-steel-cage-piece-mobile_bo55jw.jpg',
+        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627126514/2021-all-ears-nauman/imgs/Nauman-double-steel-cage-piece-desktop_p2eirf.jpg'
       },
       audioSources: [
         {
-          type: 'webm',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623913/2021-all-ears-test-player/audio/Miles_uitqur.webm'
-        },
-        {
           type: 'mpeg',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623816/2021-all-ears-test-player/audio/Miles_bgr9sx.mp3'
+          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1627126073/2021-all-ears-nauman/audio/Nauman-double-steel-cage-piece_ljga8w.mp3'
         }
       ]
     },
     {
-      id: 3,
+      id: 4,
       chapterNumber: 4,
       roomNumber: 9,
-      title: 'One Hundred Live and Die, 1984',
+      title: 'Musical Chairs, 1983',
       imgSources: {
-        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782538/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-04-mobile_kvsuvl.jpg',
-        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782537/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-04-desktop_no7yu5.jpg'
+        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627127027/2021-all-ears-nauman/imgs/Nauman-musical-chairs-mobile_nljrep.jpg',
+        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627127026/2021-all-ears-nauman/imgs/Nauman-musical-chairs-desktop_uqozca.jpg'
       },
       audioSources: [
         {
-          type: 'webm',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623913/2021-all-ears-test-player/audio/Miles_uitqur.webm'
-        },
-        {
           type: 'mpeg',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623816/2021-all-ears-test-player/audio/Miles_bgr9sx.mp3'
+          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1627126734/2021-all-ears-nauman/audio/Nauman-musical-chairs_ghexus.mp3'
         }
       ]
     },
     {
-      id: 3,
+      id: 5,
       chapterNumber: 5,
       roomNumber: 11,
-      title: 'Black Marble Under Yellow Light, 1981-88',
+      title: 'Going Around The Corner Piece With Live and Taped Monitors, 1970',
       imgSources: {
-        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782538/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-05-mobile_nloodt.jpg',
-        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782538/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-05-desktop_pvpkca.jpg'
+        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627127497/2021-all-ears-nauman/imgs/Nauman-going-around-the-corner-piece-mobile_zpl5ic.jpg',
+        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1627127496/2021-all-ears-nauman/imgs/Nauman-going-around-the-corner-piece-desktop_tv92oo.jpg'
       },
       audioSources: [
         {
-          type: 'webm',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623913/2021-all-ears-test-player/audio/Miles_uitqur.webm'
-        },
-        {
           type: 'mpeg',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623816/2021-all-ears-test-player/audio/Miles_bgr9sx.mp3'
-        }
-      ]
-    },
-    {
-      id: 3,
-      chapterNumber: 6,
-      roomNumber: 12,
-      title: 'Hanged Man, 1985',
-      imgSources: {
-        mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782539/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-06-mobile_wks7hu.jpg',
-        desktop: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1616782539/2021-all-ears-test-player/images/2021-Bruce-Nauman-chapter-06-desktop_nvvfv8.jpg'
-      },
-      audioSources: [
-        {
-          type: 'webm',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623913/2021-all-ears-test-player/audio/Miles_uitqur.webm'
-        },
-        {
-          type: 'mpeg',
-          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1614623816/2021-all-ears-test-player/audio/Miles_bgr9sx.mp3'
+          src: 'https://res.cloudinary.com/deo4sjfc8/video/upload/v1627127268/2021-all-ears-nauman/audio/Nauman-going-around-the-corner-piece_pubszh.mp3'
         }
       ]
     }
