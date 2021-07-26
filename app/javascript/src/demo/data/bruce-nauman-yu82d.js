@@ -1,7 +1,7 @@
-export const bruceNaumannYu82d = {
+export const bruceNaumanYu82d = {
   details: {
     id: 1,
-    accessCode: 'bruce-naumann-yu82d',
+    accessCode: 'bruce-nauman-yu82d',
     mainTitle: 'Bruce Nauman',
     subTitle: 'Retrospective',
     location: 'Tate Modern, London',
