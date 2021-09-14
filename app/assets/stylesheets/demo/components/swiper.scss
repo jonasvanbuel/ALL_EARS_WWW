@@ -3,6 +3,7 @@
 .swiper-container {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .swiper-wrapper {
@@ -18,9 +19,16 @@
   align-items: center;
 }
 
+.swiper-pagination-bullets {
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
+  margin: 3px;
 
   opacity: 0.4;
   background-color: white;

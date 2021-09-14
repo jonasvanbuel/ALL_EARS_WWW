@@ -8,14 +8,14 @@ const Socials = () => {
   return (
     <div className="socials">
       {bookmarked ?
-        <i class="fas fa-bookmark" onClick={() => setBookMarked(false)}></i>
+        <i className="fas fa-bookmark" onClick={() => setBookMarked(false)}></i>
         :
-        <i class="far fa-bookmark" onClick={() => setBookMarked(true)}></i>
+        <i className="far fa-bookmark" onClick={() => setBookMarked(true)}></i>
       }
       <a href="https://www.instagram.com/tate/?hl=en" target="_blank">
-        <i class="fab fa-instagram"></i>
+        <i className="fab fa-instagram"></i>
       </a>
-      <i class="fas fa-share"></i>
+      <i className="fas fa-share"></i>
     </div>
   )
 }

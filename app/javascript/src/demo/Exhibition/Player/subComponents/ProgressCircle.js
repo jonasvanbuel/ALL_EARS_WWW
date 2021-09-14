@@ -42,17 +42,17 @@ const ProgressCircle = (props) => {
     >
       <defs>
         <linearGradient id="linear-gradient-1">
-          <stop offset="15%"  stop-color="#FFFFFF" stop-opacity="0.45" />
-          <stop offset="85%" stop-color="#FFFFFF" stop-opacity="0.25"/>
+          <stop offset="15%"  stopColor="#FFFFFF" stopOpacity="0.45" />
+          <stop offset="85%" stopColor="#FFFFFF" stopOpacity="0.25"/>
         </linearGradient>
         <linearGradient id="linear-gradient-2">
-          <stop offset="0%"  stop-color="#FFFFFF" stop-opacity="0.4" />
-          <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+          <stop offset="0%"  stopColor="#FFFFFF" stopOpacity="0.4" />
+          <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0.4"/>
         </linearGradient>
         <radialGradient id="radial-gradient">
-          <stop offset="40%" stop-color="#040E3B" stop-opacity="0.8" />
-          <stop offset="70%" stop-color="#040E3B" stop-opacity="0.7" />
-          <stop offset="100%" stop-color="#040E3B" stop-opacity="0.3" />
+          <stop offset="40%" stopColor="#040E3B" stopOpacity="0.8" />
+          <stop offset="70%" stopColor="#040E3B" stopOpacity="0.7" />
+          <stop offset="100%" stopColor="#040E3B" stopOpacity="0.3" />
         </radialGradient>
       </defs>
 

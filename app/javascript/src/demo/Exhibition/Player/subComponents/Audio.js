@@ -13,9 +13,13 @@ const Audio = ({ chapterNumber, audioSources }) => {
       preload="auto"
     >
     {
-      audioSources.map((audioSource) => {
+      audioSources.map((audioSource, index) => {
         return(
-          <source src={audioSource.src} type={`audio/${audioSource.type}`} />
+          <source
+            key={index}
+            src={audioSource.src}
+            type={`audio/${audioSource.type}`}
+          />
         )
       })
     }
