@@ -20,8 +20,6 @@ const AccessCodeForm = ({ setExhibition }) => {
       setExhibition(exhibitions[accessCode])
     } else {
       // 3. TODO: if accessCode is NOT found -> add message...
-
-
     }
   }
 

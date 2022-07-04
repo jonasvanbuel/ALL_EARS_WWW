@@ -86,8 +86,10 @@ const utils = {
     return indexes;
   },
   formatAccessCode: (userInput) => {
-    const inputArray = userInput.split("");
-    // Capitalize
+    // Lowercase all
+    const lowerCaseInput = userInput.toLowerCase();
+    // Capitalize first letter after dash
+    const inputArray = lowerCaseInput.split("");
     const dashIndexes = utils.getAllIndexes(inputArray, "-");
     dashIndexes.forEach(i => {
       const charI = i + 1;
