@@ -19,7 +19,7 @@ const Exhibition = ({ exhibition }) => {
     <div id={utils.mobileCheck() ? "mobile-app" : "desktop-app"} className="app">
       <Header exhibition={exhibition} />
       <Player exhibition={exhibition} />
-      {renderResponsiveFooter()}
+      {/*{renderResponsiveFooter()}*/}
     </div>
   )
 }
