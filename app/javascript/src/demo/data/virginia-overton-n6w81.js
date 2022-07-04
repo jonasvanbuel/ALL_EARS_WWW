@@ -14,8 +14,8 @@ export const virginiaOvertonN6w81 = {
   chapters: [
     {
       id: 1,
-      chapterNumber: 1,
-      roomNumber: 1,
+      chapterNumber: 6,
+      roomNumber: 6,
       title: 'Untitled (Rumination), 2022',
       imgSources: {
         mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1656921271/2022-all-ears-virginia-overton/6_Untitled_rumination_2022_LR_skncr4.jpg',
@@ -30,8 +30,8 @@ export const virginiaOvertonN6w81 = {
     },
     {
       id: 2,
-      chapterNumber: 2,
-      roomNumber: 2,
+      chapterNumber: 7,
+      roomNumber: 7,
       title: 'Untitled, 2015',
       imgSources: {
         mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1656921277/2022-all-ears-virginia-overton/7_Untitled_2015_LR_wpiaje.jpg',
@@ -46,8 +46,8 @@ export const virginiaOvertonN6w81 = {
     },
     {
       id: 3,
-      chapterNumber: 3,
-      roomNumber: 3,
+      chapterNumber: 12,
+      roomNumber: 12,
       title: 'Untitled (Stance), 2015',
       imgSources: {
         mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1656921282/2022-all-ears-virginia-overton/12_Untitled_stance_2015_LR_l8ezyk.jpg',
@@ -62,8 +62,8 @@ export const virginiaOvertonN6w81 = {
     },
     {
       id: 4,
-      chapterNumber: 4,
-      roomNumber: 4,
+      chapterNumber: 13,
+      roomNumber: 13,
       title: 'Untitled (Arco sculpture), 2021',
       imgSources: {
         mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1656921288/2022-all-ears-virginia-overton/13_Untitled_Arco_sculpture_2021_LR_xqkcav.jpg',
@@ -78,8 +78,8 @@ export const virginiaOvertonN6w81 = {
     },
     {
       id: 5,
-      chapterNumber: 5,
-      roomNumber: 5,
+      chapterNumber: 14,
+      roomNumber: 14,
       title: 'Untitled (Arc), 2022',
       imgSources: {
         mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1656921294/2022-all-ears-virginia-overton/14_Untitled_Arc_2022_LR_ebh3as.jpg',
@@ -94,8 +94,8 @@ export const virginiaOvertonN6w81 = {
     },
     {
       id: 6,
-      chapterNumber: 6,
-      roomNumber: 6,
+      chapterNumber: 17,
+      roomNumber: 17,
       title: 'Untitled (Chime for Caro), 2022',
       imgSources: {
         mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1656921299/2022-all-ears-virginia-overton/17_Untitled_chime_for_Caro_2022_LR_h6uyot.jpg',
@@ -110,8 +110,8 @@ export const virginiaOvertonN6w81 = {
     },
     {
       id: 7,
-      chapterNumber: 7,
-      roomNumber: 7,
+      chapterNumber: 18,
+      roomNumber: 18,
       title: 'Untitled (Sculpture on table), 2022',
       imgSources: {
         mobile: 'https://res.cloudinary.com/deo4sjfc8/image/upload/v1656921307/2022-all-ears-virginia-overton/18_Untitled_sculpture_on_table_2022_LR_cbggpl.jpg',

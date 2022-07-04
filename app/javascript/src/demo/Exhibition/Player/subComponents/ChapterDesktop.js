@@ -56,7 +56,7 @@ const ChapterDesktop = ({ chapter }) => {
               </div>
             </div>
             <div className="chapter-details">
-              <h3 className="chapter-header">{`Chapter ${chapterNumber}:`}</h3>
+              <h3 className="chapter-header">{`Artwork ${chapterNumber}:`}</h3>
               <h5 className="chapter-title">{title}</h5>
             </div>
           </div>

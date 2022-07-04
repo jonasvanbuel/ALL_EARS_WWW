@@ -36,7 +36,7 @@ const ChapterMobile = ({ chapter }) => {
         <div className="horizontal-container">
           <div className="chapter-details">
             <div className="horizontal-container">
-              <h3 className="chapter-header">{`Chapter ${chapterNumber}:`}</h3>
+              <h3 className="chapter-header">{`Artwork ${chapterNumber}:`}</h3>
               <h3 className="chapter-title">{title}</h3>
               <Socials />
             </div>
